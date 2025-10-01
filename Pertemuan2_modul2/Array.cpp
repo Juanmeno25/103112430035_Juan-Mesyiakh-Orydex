@@ -6,6 +6,7 @@ int main (){
 
     for (int i = 0; i < 5; i++){
         cout << "masukan value index ke-" << i << " : ";
+         cin >> arr[i];
     }
     int j = 0;
     while (j < 5){
