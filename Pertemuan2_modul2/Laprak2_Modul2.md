@@ -381,7 +381,7 @@ return 0;
 ### Output Unguided 1 :
 
 ##### Output 1
-![Screenshot Output Unguided 1_1](https://github.com/Juanmeno25/103112430035_Juan-Mesyiakh-Orydex/blob/main/Pertemuan1_Modul1/Output/1.png)
+![Screenshot Output Unguided 1_1](https://github.com/Juanmeno25/103112430035_Juan-Mesyiakh-Orydex/blob/main/Pertemuan2_Modul2/Output/1.png)
 
 Program ini digunakan untuk menghitung operasi dasar matriks berukuran 3x3. Ada tiga fungsi utama yaitu penjumlahan, pengurangan, dan perkalian matriks. Setiap operasi menyimpan hasilnya di matriks baru lalu ditampilkan dengan fungsi tampilkanhasil. Di bagian utama program sudah disediakan dua matriks arrA dan arrB, kemudian ditampilkan menu agar pengguna bisa memilih operasi yang diinginkan. Program akan terus berjalan menggunakan perulangan do-while sampai pengguna memilih keluar.
 
@@ -426,7 +426,7 @@ int main (){
 ### Output Unguided 2 :
 
 ##### Output 1
-![Screenshot Output Unguided 1_1](https://github.com/Juanmeno25/103112430035_Juan-Mesyiakh-Orydex/blob/main/Pertemuan1_Modul1/Output/2.png)
+![Screenshot Output Unguided 1_1](https://github.com/Juanmeno25/103112430035_Juan-Mesyiakh-Orydex/blob/main/Pertemuan2_Modul2/Output/2.png)
 
 Program ini menghitung luas dan keliling persegi panjang, lalu mengubah nilai panjang dan lebar dengan fungsi. Awalnya, panjang = 10 dan lebar = 5. Luas dihitung dengan rumus panjang * lebar, keliling dengan 2 * (panjang + lebar). Hasil awal ditampilkan. Kemudian dipanggil fungsi ubahPanjangLebar yang menggunakan reference sehingga langsung mengubah nilai panjang menjadi 12 dan lebar menjadi 6. Setelah itu luas dan keliling dihitung ulang dengan nilai baru dan ditampilkan lagi. Intinya, program ini menunjukkan cara kerja parameter reference di C++ untuk mengubah nilai variabel langsung dari dalam fungsi, lalu membandingkan hasil perhitungan sebelum dan sesudah perubahan.
 ## Kesimpulan
@@ -435,6 +435,5 @@ Dari hasil implementasi dua program tersebut dapat dipahami bahwa pemrograman C+
 ## Referensi
 [1] Dewi, L. J. Erawati. (2010). "Media Pembelajaran Bahasa Pemrograman C++". Jurnal Pendidikan Teknologi dan Kejuruan (JPTK), Vol. 7, No. 1, hlm. 63-72. Diakses pada 10 Maret 2024 melalui https://ejournal.undiksha.ac.id/index.php/JPTK/article/view/31
 <br>[2]Javed, M. Y., & Hafeez, M. (2020). A Comparative Study of C++ and Java in the Context of Object-Oriented Programming Education. International Journal of Advanced Computer Science and Applications (IJACSA), 11(9). [DOI: 10.14569/IJACSA.2020.0110920]
-<br>[3]Zaka, M., & Tariq, U. (2021). Teaching Pointers and Memory Management in C++ Programming: A Pedagogical Approach. Journal of Computer Science Education, 12(3), 45–53.
+<br>[3]Zaka, M., & Tariq, U. (2021). Teaching Pointers and Memory Management in C++ Programming: A Pedagogical Approach. Journal of Computer Science Education, 12(3), 45-53.
 <br>[4]Alhazmi, F. A., & Sarrab, M. (2019). The Impact of Using Functions and Modular Programming in C++ on Software Quality. International Journal of Information Technology and Computer Science (IJITCS), 11(7), 55–63.
-<br>[5]W3Schools. (n.d.). C++ Tutorial. Diakses pada 10 Maret 2024 melalui https://www.w3schools.com/cpp/
