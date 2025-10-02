@@ -381,7 +381,7 @@ return 0;
 ### Output Unguided 1 :
 
 ##### Output 1
-![Screenshot Output Unguided 1_1](https://github.com/Juanmeno25/103112430035_Juan-Mesyiakh-Orydex/blob/main/Pertemuan2_Modul2/Output/1.png)
+![Screenshot Output Unguided 1_1](https://github.com/Juanmeno25/103112430035_Juan-Mesyiakh-Orydex/blob/main/Pertemuan2_modul2/Output/1.png)
 
 Program ini digunakan untuk menghitung operasi dasar matriks berukuran 3x3. Ada tiga fungsi utama yaitu penjumlahan, pengurangan, dan perkalian matriks. Setiap operasi menyimpan hasilnya di matriks baru lalu ditampilkan dengan fungsi tampilkanhasil. Di bagian utama program sudah disediakan dua matriks arrA dan arrB, kemudian ditampilkan menu agar pengguna bisa memilih operasi yang diinginkan. Program akan terus berjalan menggunakan perulangan do-while sampai pengguna memilih keluar.
 
@@ -426,7 +426,7 @@ int main (){
 ### Output Unguided 2 :
 
 ##### Output 1
-![Screenshot Output Unguided 1_1](https://github.com/Juanmeno25/103112430035_Juan-Mesyiakh-Orydex/blob/main/Pertemuan2_Modul2/Output/2.png)
+![Screenshot Output Unguided 1_1](https://github.com/Juanmeno25/103112430035_Juan-Mesyiakh-Orydex/blob/main/Pertemuan2_modul2/Output/2.png)
 
 Program ini menghitung luas dan keliling persegi panjang, lalu mengubah nilai panjang dan lebar dengan fungsi. Awalnya, panjang = 10 dan lebar = 5. Luas dihitung dengan rumus panjang * lebar, keliling dengan 2 * (panjang + lebar). Hasil awal ditampilkan. Kemudian dipanggil fungsi ubahPanjangLebar yang menggunakan reference sehingga langsung mengubah nilai panjang menjadi 12 dan lebar menjadi 6. Setelah itu luas dan keliling dihitung ulang dengan nilai baru dan ditampilkan lagi. Intinya, program ini menunjukkan cara kerja parameter reference di C++ untuk mengubah nilai variabel langsung dari dalam fungsi, lalu membandingkan hasil perhitungan sebelum dan sesudah perubahan.
 ## Kesimpulan
