@@ -256,7 +256,7 @@ int main() {
 ### Output Unguided 1 :
 
 ##### Output 1
-![Screenshot Output Unguided 1_1](https://github.com/Juanmeno25/103112430035_Juan-Mesyiakh-Orydex/blob/main/Pertemuan2_modul2/Output/hasil1.png)
+![Screenshot Output Unguided 1_1](https://github.com/Juanmeno25/103112430035_Juan-Mesyiakh-Orydex/blob/main/Pertemuan3_Modul3/Output/hasil1.png)
 
 Program ini digunakan untuk menghitung nilai akhir mahasiswa berdasarkan nilai UTS, UAS, dan Tugas. Struktur data struct Mahasiswa digunakan untuk menyimpan informasi setiap mahasiswa, yaitu nama, NIM, nilai UTS, UAS, Tugas, dan Nilai Akhir. Perhitungan nilai akhir dilakukan melalui fungsi hitungNilaiAkhir(), dengan rumus: Nilai Akhir = (0.3 × UTS) + (0.4 × UAS) + (0.3 × Tugas) Di dalam fungsi main(), pengguna diminta memasukkan jumlah mahasiswa (maksimal 10), lalu menginputkan data setiap mahasiswa.
 Setelah semua data dimasukkan, program akan menghitung nilai akhir masing-masing mahasiswa dan menampilkan daftar nilai lengkap yang berisi nama, NIM, nilai UTS, UAS, Tugas, dan Nilai Akhir. Dengan demikian, program ini membantu menampilkan hasil akhir penilaian mahasiswa secara otomatis dan rapi.
