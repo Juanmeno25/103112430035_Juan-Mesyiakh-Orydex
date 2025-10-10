@@ -402,7 +402,7 @@ int main() {
     return 0;
 }
 ```
-### Output Unguided 2 :
+### Output Unguided 3 :
 
 ##### Output 1
 ![Screenshot Output Unguided 1_1](https://github.com/Juanmeno25/103112430035_Juan-Mesyiakh-Orydex/blob/main/Pertemuan3_Modul3/Output/hasil3.png)
