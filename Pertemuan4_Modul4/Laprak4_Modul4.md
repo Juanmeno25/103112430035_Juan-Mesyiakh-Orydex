@@ -237,8 +237,8 @@ void printList(linkedlist List) {
     }
 }
 ```
-File .cpp ini berisi cara kerja atau implementasi detail dari fungsi-fungsi yang ada di list.h. Misalnya bagaimana cara membuat list kosong, menambah data di awal/tengah/akhir list, menghapus node, dan menampilkan isi list.
-Jadi, kalau list.h hanya mendefinisikan apa saja fungsi yang tersedia, file .cpp ini menjelaskan bagaimana fungsi-fungsi itu dijalankan secara lengkap.
+File .cpp ini berisi cara kerja atau implementasi detail dari fungsi-fungsi yang ada di list.h. Misalnya bagaimana cara membuat list kosong, menambah data di awal/tengah/akhir list, menghapus node, dan menampilkan isi list. Jadi, kalau list.h hanya mendefinisikan apa saja fungsi yang tersedia, file .cpp ini menjelaskan bagaimana fungsi-fungsi itu dijalankan secara lengkap.
+
 3. **Data Main.cpp** 
 
 ```C++
@@ -496,6 +496,7 @@ void deleteList(linkedlist &List){
 
 ```
 File list.cpp ini berisi implementasi detail dari setiap fungsi yang ada di list.h. Di sini dijelaskan bagaimana cara kerja operasi pada Linked List, seperti membuat list kosong (createList), menambah node (insertFirst, insertLast, insertAfter), menghapus node (delFirst, delLast, delAfter), menampilkan isi list (printList), menghitung jumlah elemen (nbList), dan menghapus seluruh list (deleteList).
+
 3. **Data Main.cpp** 
 
 ```C++
@@ -555,13 +556,13 @@ File main.cpp berfungsi sebagai program utama untuk menguji seluruh operasi pada
 ## Unguided 
 
 ### 1. Buatlah ADT Singly Linked list sebagai berikut di dalam file "Singlylist.h"
-![Screenshot Output Unguided 1_1](https://github.com/Juanmeno25/103112430035_Juan-Mesyiakh-Orydex/blob/main/PERTEMUAN4_MODUL4/Soal/soal1.png)
+![Screenshot Output Unguided 1_1](https://github.com/Juanmeno25/103112430035_Juan-Mesyiakh-Orydex/blob/main/Pertemuan4_Modul4/Soal/soal1.png)
 ### Kemudian buatlah implementasi dari procedure-procedure yang digunakan didalam file "Singlylist.cpp" Kemudian buat program utama didalam file "main.cpp" dengan implementasi sebagai berikut :
-![Screenshot Output Unguided 1_1](https://github.com/Juanmeno25/103112430035_Juan-Mesyiakh-Orydex/blob/main/PERTEMUAN4_MODUL4/Soal/soal12.png)
+![Screenshot Output Unguided 1_1](https://github.com/Juanmeno25/103112430035_Juan-Mesyiakh-Orydex/blob/main/Pertemuan4_Modul4/Soal/soal12.png)
 ### Sehingga linkedlist yang dibuat akan seperti ini :
-![Screenshot Output Unguided 1_1](https://github.com/Juanmeno25/103112430035_Juan-Mesyiakh-Orydex/blob/main/PERTEMUAN4_MODUL4/Soal/soal123.png)
+![Screenshot Output Unguided 1_1](https://github.com/Juanmeno25/103112430035_Juan-Mesyiakh-Orydex/blob/main/Pertemuan4_Modul4/Soal/soal123.png)
 ### Output yang diharapkan :
-![Screenshot Output Unguided 1_1](https://github.com/Juanmeno25/103112430035_Juan-Mesyiakh-Orydex/blob/main/PERTEMUAN4_MODUL4/Soal/soal1234.png)
+![Screenshot Output Unguided 1_1](https://github.com/Juanmeno25/103112430035_Juan-Mesyiakh-Orydex/blob/main/Pertemuan4_Modul4/Soal/soal1234.png)
 1. **Data Singlylist.h** 
 
 ```C++
@@ -711,12 +712,12 @@ int main() {
 ### Output Unguided 2 :
 
 ##### Output 1
-![Screenshot Output Unguided 1_1](https://github.com/Juanmeno25/103112430035_Juan-Mesyiakh-Orydex/blob/main/PERTEMUAN4_MODUL4/Output/jawaban1.png)
+![Screenshot Output Unguided 1_1](https://github.com/Juanmeno25/103112430035_Juan-Mesyiakh-Orydex/blob/main/Pertemuan4_Modul4/Output/jawaban1.png)
 
 Program ini digunakan untuk menyimpan dan menampilkan data angka menggunakan konsep modularisasi dengan pemisahan file header (.h) dan file implementasi (.cpp). Struktur data ElmList digunakan untuk menyimpan satu elemen data bertipe int (info) dan penunjuk ke elemen berikutnya (next). Struktur List berfungsi sebagai penampung utama yang menyimpan alamat elemen pertama dalam linked list. Fungsi createList digunakan untuk membuat list kosong, sedangkan alokasi membuat node baru berisi data yang diinputkan. Fungsi insertFirst menambahkan node baru di bagian awal list, dan printInfo digunakan untuk menampilkan semua data yang tersimpan di list. Pada bagian main, program membuat list baru, kemudian menambahkan beberapa data (9, 12, 8, 0, dan 2) ke dalamnya menggunakan fungsi insertFirst. Terakhir, fungsi printInfo menampilkan seluruh isi list di layar. Program ini menunjukkan cara pembuatan, penambahan, dan penampilan data dalam struktur Singly Linked List dengan penerapan modularisasi program menggunakan file header dan file implementasi di C++.
 
 ### 2. Dari soal Latihan pertama, lakukan penghapusan node 9 menggunakan deleteFirst(), node 2 menggunakan deleteLast(), dan node 8 menggunakan deleteAfter(). Kemudian tampilkan jumlah node yang tersimpan menggunakan nbList() dan lakukan penghapusan seluruh node menggunakan deleteList(). Output yang diharapkan :
-![Screenshot Output Unguided 1_1](https://github.com/Juanmeno25/103112430035_Juan-Mesyiakh-Orydex/blob/main/PERTEMUAN4_MODUL4/Soal/soal2.png)
+![Screenshot Output Unguided 1_1](https://github.com/Juanmeno25/103112430035_Juan-Mesyiakh-Orydex/blob/main/Pertemuan4_Modul4/Soal/soal2.png)
 1. **Data Singlylist.h** 
 
 ```C++
@@ -876,7 +877,7 @@ int main() {
 ### Output Unguided 3 :
 
 ##### Output 1
-![Screenshot Output Unguided 1_1](https://github.com/Juanmeno25/103112430035_Juan-Mesyiakh-Orydex/blob/main/PERTEMUAN4_MODUL4/Output/jawaban2.png)
+![Screenshot Output Unguided 1_1](https://github.com/Juanmeno25/103112430035_Juan-Mesyiakh-Orydex/blob/main/Pertemuan4_Modul4/Output/jawaban2.png)
 
 Program ini digunakan untuk menyimpan, menampilkan, dan menghapus data angka menggunakan konsep modularisasi dengan pemisahan file menjadi file header (.h), file implementasi (.cpp), dan file utama (main.cpp). Struktur data ElmList digunakan untuk menyimpan satu elemen data bertipe int (info) serta penunjuk ke elemen berikutnya (next). Struktur List berfungsi sebagai penampung utama yang menyimpan alamat elemen pertama dalam singly linked list. Pada bagian main, program membuat list baru, kemudian menambahkan beberapa data (9, 12, 8, 0, dan 2) menggunakan fungsi insertFirst sehingga membentuk urutan 9 12 8 0 2. Setelah itu dilakukan beberapa operasi penghapusan node, penampilan jumlah node, dan penghapusan seluruh elemen list. Secara keseluruhan, program ini menunjukkan cara pembuatan, penambahan, penghapusan, dan penampilan data pada struktur Singly Linked List dengan penerapan modularisasi program menggunakan file header dan file implementasi di bahasa C++.
 ## Kesimpulan
