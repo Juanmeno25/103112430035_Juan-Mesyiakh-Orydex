@@ -709,7 +709,7 @@ int main() {
     return 0;
 }
 ```
-### Output Unguided 2 :
+### Output Unguided 1 :
 
 ##### Output 1
 ![Screenshot Output Unguided 1_1](https://github.com/Juanmeno25/103112430035_Juan-Mesyiakh-Orydex/blob/main/Pertemuan4_Modul4/Output/jawaban1.png)
@@ -874,7 +874,7 @@ int main() {
     return 0;
 }
 ```
-### Output Unguided 3 :
+### Output Unguided 2 :
 
 ##### Output 1
 ![Screenshot Output Unguided 1_1](https://github.com/Juanmeno25/103112430035_Juan-Mesyiakh-Orydex/blob/main/Pertemuan4_Modul4/Output/jawaban2.png)
