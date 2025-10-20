@@ -1,4 +1,4 @@
-# <h1 align="center">Laporan Praktikum Modul 1 - Codeblocks IDE & Pengenalan Bahas C++ (Bagian Pertama)</h1>
+# <h1 align="center">Laporan Praktikum Modul 4 - Codeblocks IDE & Pengenalan Bahas C++ (Bagian Pertama)</h1>
 <p align="center">Juan Mesyiakh Orydex - 103112430035</p>
 
 ## Dasar Teori
