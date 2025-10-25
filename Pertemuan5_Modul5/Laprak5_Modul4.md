@@ -97,9 +97,9 @@ address first;
 
    ```
 ### D. Searching
- Search adalah kegiatan mencari data, baik untuk memastikan keberadaan maupun mengetahui posisi data. Algoritma search penting dalam sistem komputer, seperti search engine, basis data, dan pencarian file, karena membuat proses lebih cepat dan efisien. Beberapa algoritma search yang umum digunakan antara lain:
- 1. Sequential Search: memeriksa data satu per satu sesuai urutan hingga ditemukan.
- 2. Binary Search: membagi data menjadi dua bagian untuk mencari elemen dengan lebih cepat.
+ Search adalah kegiatan mencari data, baik untuk memastikan keberadaan maupun mengetahui posisi data. Algoritma search penting dalam sistem komputer, seperti search engine, basis data, dan pencarian file, karena membuat proses lebih cepat dan efisien. Beberapa algoritma search yang umum digunakan antara lain
+ ##### 1. Sequential Search: memeriksa data satu per satu sesuai urutan hingga ditemukan.
+ ##### 2. Binary Search: membagi data menjadi dua bagian untuk mencari elemen dengan lebih cepat.
  Algoritma search membantu meningkatkan efisiensi pencarian, terutama pada data besar dan kompleks.
 
 1. **Binnary Search**
@@ -708,16 +708,16 @@ int main() {
 
 Program ini digunakan untuk menyimpan, menampilkan, dan mencari data angka dalam struktur Singly Linked List menggunakan konsep modularisasi fungsi di C++. Struktur data Node menyimpan satu elemen data bertipe int dan penunjuk ke elemen berikutnya. Program ini memiliki beberapa fungsi utama, yaitu append untuk menambahkan node baru di akhir linked list, display untuk menampilkan seluruh isi linked list dari node pertama hingga node terakhir, getMiddle untuk menemukan node tengah antara node awal dan akhir yang digunakan dalam proses binary search, serta binarySearch untuk melakukan pencarian nilai tertentu dalam linked list. Fungsi binary search ini menampilkan setiap iterasi pencarian, nilai node tengah yang diperiksa, arah pencarian (kiri atau kanan), dan hasil apakah nilai ditemukan atau tidak. Pada bagian utama program, linked list pertama-tama dibuat kosong, kemudian beberapa data seperti 10, 20, 30, 40, 50, dan 60 ditambahkan ke dalam linked list menggunakan fungsi append. Selanjutnya, seluruh isi linked list ditampilkan dengan menggunakan fungsi display. Program kemudian melakukan pencarian terhadap beberapa nilai menggunakan fungsi binarySearch, menampilkan proses pencarian beserta hasilnya. Program ini menunjukkan cara pembuatan, penambahan, penampilan, dan pencarian data pada linked list. Meskipun binary search biasanya lebih cocok digunakan pada array, program ini memodifikasi konsep binary search agar bisa diterapkan pada linked list dengan traversal node demi node. Dengan penerapan modularisasi fungsi, kode menjadi lebih rapi dan setiap tugas seperti penambahan, tampilan, dan pencarian dipisahkan ke dalam fungsi masing-masing, sehingga memudahkan pemahaman dan pemeliharaan program.
 ### 2. Implementasikan program C++ yang menggunakan algoritma Linear Search pada Linked List untuk mencari elemen tertentu. Program harus mampu:
-#### 1. Membuat linked list dengan menambahkan node di akhir
-#### 2. Mengimplementasikan linear search pada linked list
-#### 3. Menampilkan detail proses pencarian dan hasil akhir 
+####   1. Membuat linked list dengan menambahkan node di akhir
+####   2. Mengimplementasikan linear search pada linked list
+####   3. Menampilkan detail proses pencarian dan hasil akhir 
 ### Petunjuk Tugas 2:
-#### 1. Gunakan struktur Node dengan data integer dan pointer next
-#### 2. Implementasikan fungsi append() untuk menambah node
-#### 3. Implementasikan fungsi linearSearch () yang mengembalikan pointer ke node yang ditemukan
-#### 4. Data dalam linked list tidak perlu terurut untuk linear search
-#### 5. Tampilkan setiap langkah pencarian dan node yang sedang diperiksa
-#### 6. Program utama harus membuat linked list dengan minimal 3 elemen dan melakukan pencarian
+####   1. Gunakan struktur Node dengan data integer dan pointer next
+####   2. Implementasikan fungsi append() untuk menambah node
+####   3. Implementasikan fungsi linearSearch () yang mengembalikan pointer ke node yang ditemukan
+####   4. Data dalam linked list tidak perlu terurut untuk linear search
+####   5. Tampilkan setiap langkah pencarian dan node yang sedang diperiksa
+####   6. Program utama harus membuat linked list dengan minimal 3 elemen dan melakukan pencarian
 ### Ekspetasi Output:
 #### Dulu pernah berekspetasi pada seseorang, tapi hasilnya dikecewakan. Jadinya hanya bisa berekspetasi atas kerja keras diri sendiri.
 ![Screenshot Output Unguided 1_1](https://github.com/Juanmeno25/103112430035_Juan-Mesyiakh-Orydex/blob/main/Pertemuan5_Modul5/Unguided2/Soal2.png)
