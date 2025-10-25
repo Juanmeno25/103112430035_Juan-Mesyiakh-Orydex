@@ -1,4 +1,4 @@
-# <h1 align="center">Laporan Praktikum Modul 4 - Singly Link List Bagian 2 Searching (Binnary Shearching & Linear Searching)</h1>
+# <h1 align="center">Laporan Praktikum Modul  - Singly Link List Bagian 2 Searching (Binnary Shearching & Linear Searching)</h1>
 <p align="center">Juan Mesyiakh Orydex - 103112430035</p>
 
 ## Dasar Teori
