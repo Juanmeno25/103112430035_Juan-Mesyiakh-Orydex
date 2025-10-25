@@ -10,8 +10,11 @@ Linked List adalah struktur data yang terdiri dari serangkaian node, di mana set
 
    **SEARCHING**  
     Search adalah kegiatan mencari data, baik untuk memastikan keberadaan maupun mengetahui posisi data. Algoritma search penting dalam sistem komputer, seperti search engine, basis data, dan pencarian file, karena membuat proses lebih cepat dan efisien. Beberapa algoritma search yang umum digunakan antara lain:
+
     1. Sequential Search: memeriksa data satu per satu sesuai urutan hingga ditemukan.
+
     2. Binary Search: membagi data menjadi dua bagian untuk mencari elemen dengan lebih cepat.
+    
     Algoritma search membantu meningkatkan efisiensi pencarian, terutama pada data besar dan kompleks.
 
 
