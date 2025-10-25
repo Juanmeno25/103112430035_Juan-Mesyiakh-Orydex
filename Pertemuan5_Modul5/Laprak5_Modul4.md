@@ -9,13 +9,8 @@ Linked List adalah struktur data yang terdiri dari serangkaian node, di mana set
    Linked list (biasa disebut list saja) adalah salah satu bentuk struktur data (representasi penyimpanan) berupa serangkaian elemen data yang saling berkait (berhubungan) dan bersifat fleksibel karena dapat tumbuh dan mengerut sesuai kebutuhan. Data yang disimpan dalam Linked list bisa berupa data tunggal atau data majemuk. Data tunggal merupakan data yang hanya terdiri dari satu data (variabel), misalnya: nama bertipe string. Sedangkan data majemuk merupakan sekumpulan data (record) yang di dalamnya terdiri dari berbagai tipe data, misalnya: Data Mahasiswa, terdiri dari Nama bertipe string, NIM bertipe long integer, dan Alamat bertipe string. Linked list dapat diimplementasikan menggunakan Array dan Pointer (Linked list).
 
    **SEARCHING**  
-    Search adalah kegiatan mencari data, baik untuk memastikan keberadaan maupun mengetahui posisi data. Algoritma search penting dalam sistem komputer, seperti search engine, basis data, dan pencarian file, karena membuat proses lebih cepat dan efisien. Beberapa algoritma search yang umum digunakan antara lain:
+    Searching merupakan operasi dasar list dengan melakukan aktivitas pencarian terhadap node tertentu. Proses ini berjalan dengan mengunjungi setiap node dan berhenti setelah node yang dicari ketemu. Dengan melakukan operasi searching, operasi-operasi seperti insert after, delete after, dan update akan lebih mudah.
 
-    1. Sequential Search: memeriksa data satu per satu sesuai urutan hingga ditemukan.
-
-    2. Binary Search: membagi data menjadi dua bagian untuk mencari elemen dengan lebih cepat.
-    
-    Algoritma search membantu meningkatkan efisiensi pencarian, terutama pada data besar dan kompleks.
 
 
 ### A. Dasar Pemograman C++<br/>
@@ -102,7 +97,10 @@ address first;
 
    ```
 ### D. Searching
-Searching merupakan operasi dasar list dengan melakukan aktivitas pencarian terhadap node tertentu. Proses ini berjalan dengan mengunjungi setiap node dan berhenti setelah node yang dicari ketemu. Dengan melakukan operasi searching, operasi-operasi seperti insert after, delete after, dan update akan lebih mudah.
+ Search adalah kegiatan mencari data, baik untuk memastikan keberadaan maupun mengetahui posisi data. Algoritma search penting dalam sistem komputer, seperti search engine, basis data, dan pencarian file, karena membuat proses lebih cepat dan efisien. Beberapa algoritma search yang umum digunakan antara lain:
+ 1. Sequential Search: memeriksa data satu per satu sesuai urutan hingga ditemukan.
+ 2. Binary Search: membagi data menjadi dua bagian untuk mencari elemen dengan lebih cepat.
+ Algoritma search membantu meningkatkan efisiensi pencarian, terutama pada data besar dan kompleks.
 
 1. **Binnary Search**
 
