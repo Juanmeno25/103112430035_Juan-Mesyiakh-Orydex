@@ -7,6 +7,7 @@ Linked List adalah struktur data yang terdiri dari serangkaian node, di mana set
 
    **SINGLY LINKED LIST**  
    Linked list (biasa disebut list saja) adalah salah satu bentuk struktur data (representasi penyimpanan) berupa serangkaian elemen data yang saling berkait (berhubungan) dan bersifat fleksibel karena dapat tumbuh dan mengerut sesuai kebutuhan. Data yang disimpan dalam Linked list bisa berupa data tunggal atau data majemuk. Data tunggal merupakan data yang hanya terdiri dari satu data (variabel), misalnya: nama bertipe string. Sedangkan data majemuk merupakan sekumpulan data (record) yang di dalamnya terdiri dari berbagai tipe data, misalnya: Data Mahasiswa, terdiri dari Nama bertipe string, NIM bertipe long integer, dan Alamat bertipe string. Linked list dapat diimplementasikan menggunakan Array dan Pointer (Linked list).
+
    **SEARCHING**  
     Search adalah kegiatan mencari data, baik untuk memastikan keberadaan maupun mengetahui posisi data. Algoritma search penting dalam sistem komputer, seperti search engine, basis data, dan pencarian file, karena membuat proses lebih cepat dan efisien. Beberapa algoritma search yang umum digunakan antara lain:
     1. Sequential Search: memeriksa data satu per satu sesuai urutan hingga ditemukan.
@@ -104,7 +105,7 @@ Daftar terhubung yang setiap simpul pembentuknya mempunyai satu rantai(link) ke 
 
 1. **Binnary Search**
 
-   ```cpp
+ ```cpp
 Node *binarySearch(Node* head, int key) {
    int size = 0;
    for(Node*current = head; current; current = current->next) size++;
@@ -125,11 +126,12 @@ while(size > 0) {
     }
     return nullptr;
 }
+
    ```
 
 2. **Linear Search**
 
-   ```cpp
+ ```cpp
 Node*linearSearch(Node* head, int key) {
     Node* current = head;
     while (current != nullptr) {
@@ -139,6 +141,7 @@ Node*linearSearch(Node* head, int key) {
     }
     return nullptr;
 }
+
    ```
 
 ---
