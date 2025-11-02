@@ -183,6 +183,7 @@ void updateBefore(linkedlist List, address nodeNext);
 
 ```
 File ini berisi struktur data dan deklarasi fungsi untuk doubly linked list makanan. Terdapat tipe data makanan, node, dan linkedlist, serta fungsi untuk membuat list, menambah, menghapus, menampilkan, dan memperbarui data. File ini hanya mendeklarasikan apa yang tersedia, sedangkan implementasinya ada di file .cpp terpisah.
+
 2. **Data listMakanan.cpp** 
 
 ```C++
