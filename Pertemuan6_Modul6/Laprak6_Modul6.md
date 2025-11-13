@@ -771,8 +771,6 @@ int main() {
 ##### Output 1
 ![Screenshot Output Unguided 1_1](https://github.com/Juanmeno25/103112430035_Juan-Mesyiakh-Orydex/blob/main/Pertemuan6_Modul6/Output/Jawabanno1.png)
 
-ChatGPT bilang:
-
 Program ini digunakan untuk mengelola data kendaraan menggunakan struktur Doubly Linked List dalam bahasa C++. Setiap node menyimpan informasi berupa nomor polisi, warna, dan tahun pembuatan kendaraan, serta memiliki dua penunjuk (next dan prev) agar data dapat diakses dua arah. Program diawali dengan pembuatan list kosong, kemudian pengguna memasukkan beberapa data kendaraan yang disimpan ke dalam list melalui proses alokasi dan penyisipan di bagian akhir menggunakan fungsi insertLast. Setelah data dimasukkan, program menampilkan seluruh isi list dengan fungsi printInfo. Dengan pemisahan file header, implementasi, dan main, program ini menunjukkan penerapan konsep modularisasi dan struktur data dinamis yang memungkinkan pengelolaan data secara efisien serta fleksibel.
 ### 2. Carilah elemen dengan nomor polisi D001 dengan membuat fungsi baru. fungsi findElm( L : List, x : infotype ) : address
 ![Screenshot Output Unguided 1_1](https://github.com/Juanmeno25/103112430035_Juan-Mesyiakh-Orydex/blob/main/Pertemuan6_Modul6/Unguided2/Soal2.png)
