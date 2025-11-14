@@ -3,12 +3,10 @@
 
 ## Dasar Teori
 
-Doubly Linked List (DLL) merupakan salah satu struktur data linier yang tersusun atas sekumpulan node yang saling terhubung satu sama lain. Setiap node dalam DLL memiliki tiga bagian utama, yaitu data yang menyimpan informasi, pointer yang menunjuk ke node berikutnya (next), dan pointer yang menunjuk ke node sebelumnya (prev). Berbeda dengan Single Linked List (SLL) yang hanya memiliki satu pointer untuk menghubungkan node ke node berikutnya, Doubly Linked List memiliki hubungan dua arah sehingga setiap node dapat mengetahui baik penerus maupun pendahulunya.
+Stack adalah struktur data yang bekerja dengan prinsip LIFO (Last In, First Out), sehingga perubahan yang paling terakhir dilakukan akan menjadi perubahan pertama yang bisa dibatalkan. Karena sifat inilah stack sangat cocok untuk fitur undo-redo: setiap kali pengguna melakukan aksi, perubahan tersebut dimasukkan ke stack, dan ketika dilakukan undo, sistem tinggal mengambil perubahan terakhir dari tumpukan tersebut. Stack digunakan untuk mengelola operasi undo dan redo dengan menyimpan riwayat perubahan data dalam urutan tertentu. 
 
-   **Dubly Linked List**  
-   Doubly Linked List adalah struktur data yang terdiri dari kumpulan elemen yang disebut node, di mana setiap node saling terhubung melalui dua pointer, yaitu pointer ke node sebelumnya (prev) dan pointer ke node berikutnya (next). Setiap node juga menyimpan data atau informasi yang menjadi isi dari elemen tersebut. Dengan adanya dua pointer ini, Doubly Linked List memungkinkan proses penelusuran dilakukan ke dua arah, baik maju ke depan maupun mundur ke belakang.
-
-
+   **Stack**  
+   Stack adalah kumpulan elemen yang hanya dapat ditambahkan dan dihapus dari satu ujung (gerbang) yang sama, sehingga elemen-elemen tersebut seolah-olah bertumpuk. Stack memiliki sifat LIFO (Last In, First Out), yang berarti elemen yang terakhir dimasukkan akan menjadi elemen yang pertama dikeluarkan. Dalam implementasinya, stack dapat direpresentasikan menggunakan Linked List maupun Array, dan bisa disusun dalam bentuk Single Stack maupun Double Stack, sesuai kebutuhan program.
 
 
 ### A. Dasar Pemograman C++<br/>
@@ -72,7 +70,7 @@ e. % digunakan untuk sisa pembagian.
    cout << "Pengurangan : " << angka1 - angka2 << endl;
    ```
 ### C. Stack
-Doubly Linked List adalah salah satu jenis struktur data yang berbentuk rangkaian node, di mana setiap node saling terhubung secara dua arah. Setiap node di dalam Doubly Linked List memiliki tiga komponen, yaitu data yang menyimpan informasi, pointer next yang menunjuk ke node berikutnya, dan pointer prev yang menunjuk ke node sebelumnya. Dengan adanya dua pointer tersebut, daftar ini dapat ditelusuri dari dua arah, baik dari awal ke akhir maupun dari akhir ke awal.
+Struktur Data Stack digunakan untuk mencatat setiap perubahan data sehingga sistem dapat melakukan operasi undo dan redo dengan mudah. Melalui prinsip LIFO (Last In, First Out), perubahan terbaru selalu berada di posisi teratas, sehingga dapat dibatalkan (undo) atau dikembalikan lagi (redo) secara terstruktur.
 
 
    ```cpp
@@ -514,7 +512,7 @@ void balikStack(Stack &S);
 
 ```C++
 #include <iostream>
-#include "stack.h"
+#include "stack1.h"
 using namespace std;
 
 void createStack(Stack &S) {
@@ -572,7 +570,7 @@ void balikStack(Stack &S) {
 
 ```C++
 #include <iostream>
-#include "stack.h"
+#include "stack1.h"
 using namespace std;
 
 int main() {
@@ -642,7 +640,7 @@ void pushAscending(Stack &S, infotype x);
 
 ```C++
 #include <iostream>
-#include "stack.h"
+#include "stack2.h"
 using namespace std;
 
 void createStack(Stack &S) {
@@ -714,7 +712,7 @@ void pushAscending(Stack &S, infotype x) {
 
 ```C++
 #include <iostream>
-#include "stack.h"
+#include "stack2.h"
 using namespace std;
 
 int main() {
@@ -782,7 +780,7 @@ void getInputStream(Stack &S);
 
 ```C++
 #include <iostream>
-#include "stack.h"
+#include "stack3.h"
 using namespace std;
 
 void createStack(Stack &S) {
@@ -850,8 +848,16 @@ void getInputStream(Stack &S) {
     char ch;
     while (true) {
         ch = cin.get();
-        if (ch == '\n') break;
-        push(S, ch);
+        if (ch == '\n') {
+            break;
+        }
+        
+        if (ch >= '0' && ch <= '9') {
+       
+            infotype digitValue = ch - '0'; 
+            push(S, digitValue);
+        }
+  
     }
 }
 
@@ -864,7 +870,7 @@ void getInputStream(Stack &S) {
 
 ```C++
 #include <iostream>
-#include "stack.h"
+#include "stack3.h"
 using namespace std;
 
 int main() {
@@ -891,5 +897,5 @@ Program ini digunakan untuk mengelola data menggunakan struktur Stack berbasis a
 Kesimpulannya, ketiga program Stack yang telah dibuat menggambarkan proses bertahap dalam memahami dan mengimplementasikan struktur data Stack (tumpukan) menggunakan bahasa C++. Pada program Stack versi pertama, fokus utamanya adalah membangun struktur dasar stack berbasis pointer (linked list), dengan fungsi-fungsi seperti createStack, push, pop, update, view, dan searchData. Program ini memperkenalkan konsep dasar LIFO (Last In, First Out) di mana elemen terakhir yang dimasukkan akan menjadi elemen pertama yang dihapus. Pada program Stack versi kedua, implementasi diperluas dengan menggunakan array statis sebagai media penyimpanan. Fungsi-fungsi dasar seperti push, pop, isEmpty, dan isFull digunakan untuk menambah dan menghapus data, serta memeriksa kondisi stack. Selain itu, ditambahkan fungsi balikStack yang berfungsi untuk membalik urutan elemen di dalam stack menggunakan stack sementara, sehingga memperlihatkan penerapan konsep manipulasi data pada struktur tumpukan. Sementara itu, program Stack versi ketiga mengembangkan fitur yang lebih kompleks, seperti pushAscending untuk menambahkan data secara otomatis dalam urutan menaik (ascending) dengan bantuan rekursi, dan getInputStream yang memungkinkan pengguna memasukkan karakter langsung dari keyboard untuk disimpan ke dalam stack. Program ini juga memperlihatkan penerapan modularisasi yang baik melalui pemisahan antara file header (.h), file implementasi (.cpp), dan file utama (main.cpp).
 ## Referensi
 [1] Dewi, L. J. Erawati. (2010). "Media Pembelajaran Bahasa Pemrograman C++". Jurnal Pendidikan Teknologi dan Kejuruan (JPTK), Vol. 7, No. 1, hlm. 63-72. Diakses pada 10 Maret 2024 melalui https://ejournal.undiksha.ac.id/index.php/JPTK/article/view/31
-<br>[2] Wijoyo, A., Azzahra, A., Nabila, D., Silviana, F., & Lusiyanti. (2024). Perbandingan struktur linked list dan array dalam manajemen memori. JRIIN: Jurnal Riset Informatika dan Inovasi, 1(12), 1290-1293. Diperoleh dari: https://jurnalmahasiswa.com/index.php/jriin/article/view/957
+<br>[2] Alfahri, M. Rizki, Hasibuan, Najwa Latifa, Siagian, Raihan Insan Pratama, & Ramadhani, Fanny. (2024). "Sistem Pengelolaan Data Siswa Dinamis dengan Array Dan Stack". Jurnal Nasional Komputasi dan Teknologi Informasi (JNKTI), Vol. 7, No. 6.
     

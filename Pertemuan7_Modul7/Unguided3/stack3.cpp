@@ -67,7 +67,15 @@ void getInputStream(Stack &S) {
     char ch;
     while (true) {
         ch = cin.get();
-        if (ch == '\n') break;
-        push(S, ch);
+        if (ch == '\n') {
+            break;
+        }
+        
+        if (ch >= '0' && ch <= '9') {
+       
+            infotype digitValue = ch - '0'; 
+            push(S, digitValue);
+        }
+  
     }
 }
