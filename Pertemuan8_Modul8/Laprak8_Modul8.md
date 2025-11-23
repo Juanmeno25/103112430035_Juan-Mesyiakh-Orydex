@@ -1,4 +1,4 @@
-# <h1 align="center">Laporan Praktikum Modul 7  -  QUEUE</h1>
+# <h1 align="center">Laporan Praktikum Modul 8  -  QUEUE</h1>
 <p align="center">Juan Mesyiakh Orydex - 103112430035</p>
 
 ## Dasar Teori
