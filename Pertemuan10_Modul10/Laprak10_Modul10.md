@@ -217,6 +217,7 @@ int main() {
 }
 
 ```
+Program ini menghitung 2 pangkat x menggunakan fungsi rekursif. Di dalam fungsi pangkat_2, jika x bernilai 0 maka fungsi langsung mengembalikan 1 karena 2⁰ = 1. Jika x tidak 0, fungsi memanggil dirinya sendiri dengan nilai x-1 lalu mengalikan hasilnya dengan 2. Proses ini berulang sampai x menjadi 0.
 
 ### 2. Bstree 1
 1. **Data BST1.h** 
@@ -738,7 +739,7 @@ File main.cpp ini berfungsi sebagai program utama untuk menguji seluruh fitur Bi
 ![Screenshot Output Unguided 1_1](https://github.com/Juanmeno25/103112430035_Juan-Mesyiakh-Orydex/blob/main/Pertemuan10_Modul10/Unguided1/Soal1.png)
 
 ### Buatlah implementasi ADT Binary Search Tree pada file "bstree.cpp" dan cobalah hasil implementasi ADT pada file "main.cpp"
-![Screenshot Output Unguided 1_1](https://github.com/Juanmeno25/103112430035_Juan-Mesyiakh-Orydex/blob/main/Pertemuan10_Modul10/Unguided1/Soal2.png)
+![Screenshot Output Unguided 1_1](https://github.com/Juanmeno25/103112430035_Juan-Mesyiakh-Orydex/blob/main/Pertemuan10_Modul10/Unguided1/Soal12.png)
 
 1. **Data Tree1.h** 
 
