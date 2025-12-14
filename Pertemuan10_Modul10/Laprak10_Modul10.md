@@ -1109,7 +1109,7 @@ int main() {
 ### Output Unguided 3 :
 
 ##### Output 1
-![Screenshot Output Unguided 1_1](https://github.com/Juanmeno25/103112430035_Juan-Mesyiakh-Orydex/blob/main/Pertemuan7_Modul7/Output/Jawabanno3.png)
+![Screenshot Output Unguided 1_1](https://github.com/Juanmeno25/103112430035_Juan-Mesyiakh-Orydex/blob/main/Pertemuan10_Modul10/Output/Jawabanno3.png)
 
 Pada file Tree3.h, didefinisikan struktur node yang berisi nilai integer serta pointer menuju anak kiri dan kanan, dan juga deklarasi fungsi untuk membuat node baru, menyisipkan data, mencari data, serta menampilkan tree dengan tiga jenis traversal. Pada file Tree3.cpp, fungsi alokasi digunakan untuk membuat node baru, kemudian insertNode menempatkan nilai ke dalam tree sesuai aturan BST, yaitu data yang lebih kecil ditempatkan pada anak kiri dan data yang lebih besar pada anak kanan. Fungsi findNode digunakan untuk mencari suatu nilai di dalam tree secara rekursif. Tiga fungsi lainnya, yaitu printInOrder, printPreOrder, dan printPostOrder, berfungsi untuk menampilkan isi tree dengan urutan yang berbeda sesuai jenis traversal. Pada main.cpp, program membuat root kosong kemudian memasukkan beberapa data ke dalam BST. Setelah tree terbentuk, program menampilkan isi tree menggunakan ketiga traversal tersebut. Program ini menunjukkan bagaimana BST dapat digunakan untuk menyimpan, mencari, dan menampilkan data secara terstruktur.
 
