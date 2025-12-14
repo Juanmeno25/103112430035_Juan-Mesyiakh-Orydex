@@ -6,7 +6,6 @@
 Multiple Linked List adalah kumpulan beberapa Linked List yang terpisah namun dapat diakses secara bersamaan, memungkinkan pengelolaan data yang terstruktur dan efisien.
 
    **Multi-Linked List**  
-   
     Multiple Linked List memungkinkan pengelolaan data secara terstruktur dengan memisahkan simpul-simpul ke dalam kelompok-kelompok yang saling terkait, sehingga memudahkan akses dan pengaturan informasi secara efisien. Dengan Multiple Linked List, setiap himpunan simpul dapat diatur secara terpisah namun tetap dapat diakses bersamaan, sehingga struktur data menjadi lebih rapi, terorganisir, dan sesuai dengan kebutuhan aplikasi.
 
 
