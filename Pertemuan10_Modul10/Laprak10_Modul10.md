@@ -4,7 +4,9 @@
 ## Dasar Teori
 
 Binary Tree atau Pohon Biner adalah struktur data berbentuk hierarki dengan hubungan one-to-many. Setiap simpul memiliki maksimal dua anak, yaitu anak kiri dan anak kanan. Secara umum, binary tree digunakan untuk merepresentasikan data yang bercabang dan tersusun dalam beberapa level dari root.
+
    **Binary Search Tree**  
+   
   Binary Search Tree (BST) adalah bentuk khusus dari binary tree yang terurut. BST menyimpan data berupa bilangan atau nama dengan aturan: nilai yang lebih kecil ditempatkan di anak kiri, dan nilai yang lebih besar di anak kanan. Karena sifat pengurutannya, BST sering digunakan untuk penyimpanan dan pencarian data yang lebih efisien di dalam memori.
 
 
