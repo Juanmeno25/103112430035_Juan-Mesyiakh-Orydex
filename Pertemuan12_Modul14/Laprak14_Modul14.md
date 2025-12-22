@@ -154,6 +154,7 @@ void printGraph(Graph G);
 
 ```
 graph.h ini berisi struktur data dan deklarasi fungsi untuk mengelola Graph dengan metode Adjacency List. File ini hanya mendefinisikan tipe data, struktur node (titik) dan edge (sisi), serta prototipe fungsi seperti pembuatan graph, penambahan node, penyambungan antar node, dan penampilan struktur graph yang nantinya akan diimplementasikan pada file .cpp.
+
 2. **Data graph_edge.cpp** 
 
 ```C++
@@ -714,4 +715,4 @@ Pada file graph3.h, disertakan pustaka queue untuk mendukung algoritma BFS serta
 Ketiga program graph tersebut sama-sama menunjukkan cara membangun dan mengelola struktur data Graph Tidak Berarah (Undirected Graph) menggunakan metode Multi Linked List dengan pointer. Pada program pertama, fokus utamanya adalah pembentukan struktur dasar (ADT), mulai dari pengalokasian simpul (node), penyisipan simpul ke dalam list, hingga pembuatan relasi atau sisi (edge) yang menghubungkan dua simpul secara timbal balik. Program kedua memperluas fungsionalitas dengan mengimplementasikan metode penelusuran Depth First Search (DFS), yang bekerja secara rekursif untuk menjelajahi cabang graph sedalam mungkin sebelum melakukan backtracking. Program ketiga melengkapi fitur penelusuran dengan metode Breadth First Search (BFS), yang menggunakan bantuan antrean (queue) untuk mengunjungi simpul lapis demi lapis berdasarkan jarak terdekatnya Secara keseluruhan, ketiga program ini memperlihatkan bagaimana graph dapat digunakan untuk merepresentasikan hubungan kompleks antar data yang tidak hanya bersifat hierarkis. Dengan kombinasi ADT yang dinamis dan algoritma penelusuran (DFS dan BFS), data dalam graph dapat dikelola, dihubungkan, dan diakses kembali secara sistematis. Penggunaan penanda visited pada setiap simpul memastikan proses penelusuran berjalan efisien tanpa terjebak dalam perulangan tak terbatas (infinite loop), sehingga graph menjadi struktur data yang sangat kuat untuk memodelkan jaringan atau keterhubungan antar objek.
 ## Referensi
 [1] Dewi, L. J. Erawati. (2010). "Media Pembelajaran Bahasa Pemrograman C++". Jurnal Pendidikan Teknologi dan Kejuruan (JPTK), Vol. 7, No. 1, hlm. 63-72. Diakses pada 10 Maret 2024 melalui https://ejournal.undiksha.ac.id/index.php/JPTK/article/view/31
-<br>[2] Wulandari, R. (2023). "Implementasi Teknik Binary Search Tree Pada Pencarian Data Penduduk". KAKIFIKOM Journal, Vol. X(?), No. Y(?), hlm. ... . Diakses pada 6 Desember 2025 melalui https://ejournal.ust.ac.id/index.php/KAKIFIKOM/article/view/1794
+<br>[2] Trivusi. (2022). "Struktur Data Graph: Pengertian, Jenis, dan Kegunaannya". Trivusi Web IT, Diakses pada 22 Desember 2025 melalui https://www.trivusi.web.id/2022/07/struktur-data-graph.html
